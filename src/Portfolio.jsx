@@ -4,11 +4,21 @@ import projectPic1 from "./assets/project-pic-1.png";
 import projectPic2 from "./assets/project-pic-2.png";
 import projectPic3 from "./assets/project-pic-3.png";
 import projectPic4 from "./assets/project-pic-4.png";
+import projectPic5 from "./assets/project-pic-5.png";
 import "./Portfolio.css";
 
 const projects = [
   {
     id: 1,
+    title: "Notes App",
+    description: `Experience effortless note-taking with Clean Notes, featuring word and character counts, 
+    a stylish dark mode, organized tabs for quick access, and robust import/export capabilities to keep your notes in sync.`,
+    link: "https://ddelportgit.github.io/notes-app-1/",
+    github: "https://github.com/ddelportgit/notes-app-1",
+    imageSrc: projectPic5,
+  },
+  {
+    id: 2,
     title: "Weather App",
     description: `The weather app shows daily conditions, a 7-day forecast, and an 8-day hourly breakdown,
             all powered by a reliable API and featuring a sleek dark mode.`,
@@ -17,7 +27,7 @@ const projects = [
     imageSrc: projectPic1,
   },
   {
-    id: 2,
+    id: 3,
     title: "Bible App",
     description: `Explore the Bible with our API-driven app, where you can choose a version, navigate
             through books and chapters, and copy verses with a single click.`,
@@ -26,7 +36,7 @@ const projects = [
     imageSrc: projectPic2,
   },
   {
-    id: 3,
+    id: 4,
     title: "Tic-Tac-Toe Game",
     description: `Enjoy our Tic Tac Toe game featuring a theme changer for a personalized look and a modal
             with easy-to-follow instructions for seamless gameplay.`,
@@ -35,7 +45,7 @@ const projects = [
     imageSrc: projectPic3,
   },
   {
-    id: 4,
+    id: 5,
     title: "Password Generator",
     description: `Generate secure passwords with our random password generator, featuring customizable
             options and a user-friendly interface for enhanced security.`,
