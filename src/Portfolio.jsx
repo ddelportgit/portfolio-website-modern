@@ -11,8 +11,8 @@ const projects = [
   {
     id: 1,
     title: "Notes App",
-    description: `Experience effortless note-taking with Clean Notes, featuring word and character counts, 
-    a stylish dark mode, organized tabs for quick access, and robust import/export capabilities to keep your notes in sync.`,
+    description: `Experience effortless note-taking, featuring word and character counts, 
+    a stylish dark mode, organized tabs, and robust import/export capabilities.`,
     link: "https://ddelportgit.github.io/notes-app-1/",
     github: "https://github.com/ddelportgit/notes-app-1",
     imageSrc: projectPic5,
