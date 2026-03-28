@@ -169,7 +169,7 @@ export default function Portfolio() {
         <p>Let's connect! You can reach me via email or through my social media profiles.</p>
         <div className="social-links">
           <a
-            href="https://github.com"
+            href="https://github.com/ddelportgit"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -177,14 +177,14 @@ export default function Portfolio() {
             <Github />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/donovan-delport"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
           >
             <Linkedin />
           </a>
-          <a href="mailto:example@email.com" aria-label="Email">
+          <a href="mailto:donovandelport123@gmail.com" aria-label="Email">
             <Mail />
           </a>
         </div>
